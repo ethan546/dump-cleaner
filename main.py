@@ -1,27 +1,5 @@
 ### 
-# Hiro Antagonist, Jun 29, 2022
-# Written for Python 3.9.10
-# 
-# This script is for reading through big password dumps and sorting out
-# all of the garbage, while outputing the valid unames and passwords
-# to relevant .txt files, labeled uname.txt and passwd.txt.
-# Creates status.txt to make sure files are not repeated.
-#
-# To operate properly, run this script in a directory, and it 
-# will read .txt files for user/pass combos,
-# separating credentials to be used for dictionary attacks.
-#
-# status.txt example:
-# foo.txt
-# bar.txt
-# baz.txt
-#
-# To do:
-## Verbose flag // log file to hold output?
-## 
-## Terminal and init functions to gracefully stop and pick up again
-## Option to skip redundant passwords
-#       but how do we do this without taking 200 years?
+# Check the README!!
 ###
 
 import os
