@@ -1,7 +1,3 @@
-### 
-# Check the README!!
-###
-
 import os
 
 class Cleaner:
